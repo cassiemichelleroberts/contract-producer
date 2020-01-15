@@ -2,12 +2,7 @@
   "id" : "ea6c685b-a11b-4e42-b0ce-1b31d5a89780",
   "request" : {
     "url" : "/api/v1/car/b55dc50f-600f-4cbc-9b49-fed186cf6eb2",
-    "method" : "GET",
-    "headers" : {
-      "Authorization" : {
-        "equalTo" : "Bearer dGVzdA=="
-      }
-    }
+    "method" : "GET"
   },
   "response" : {
     "status" : 200,

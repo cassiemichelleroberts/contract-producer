@@ -11,13 +11,7 @@ Contract.make {
 
         method GET()
 
-        url("/api/v1/car/b55dc50f-600f-4cbc-9b49-fed186cf6eb2" ) {
-
-            headers {
-                header( authorization(), $( c('Bearer dGVzdA==' ), p( execute( 'authToken()' ) ) ) )
-            }
-
-        }
+        url("/api/v1/car/b55dc50f-600f-4cbc-9b49-fed186cf6eb2" )
 
     }
 
