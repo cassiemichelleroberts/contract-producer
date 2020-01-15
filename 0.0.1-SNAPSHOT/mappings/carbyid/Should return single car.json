@@ -1,0 +1,21 @@
+{
+  "id" : "a23deb43-2b90-49df-930d-308362b07bc6",
+  "request" : {
+    "url" : "/api/v1/car/b55dc50f-600f-4cbc-9b49-fed186cf6eb2",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer dGVzdA=="
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"BMW\"}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "a23deb43-2b90-49df-930d-308362b07bc6"
+}
